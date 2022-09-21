@@ -10,6 +10,8 @@
     Python
     TypeScript
     C
+    .NET frameworks
+    Microsoft Office
 
 -   Linux operating systems Experience:
     Debian
