@@ -1,0 +1,28 @@
+-   Proficient in the languages of:
+    Java
+    C#
+    HTML
+
+-   Experience in the languages of:
+    SQL
+    CSS
+    JavaScript
+    Python
+    TypeScript
+    C
+
+-   Linux operating systems Experience:
+    Debian
+    Ubuntu
+    Parrot
+    Arch
+
+-   Databases experience (Building and maintaining):
+    Visual Studio
+    PG Admin
+
+-   Visual Studio:
+    Building websites with frameworks
+    Building user applications
+
+-   Agile Development of a long term project

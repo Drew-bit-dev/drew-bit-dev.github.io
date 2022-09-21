@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Site</title>
+    <link rel="stylesheet" href="style.css">
+
+    <script>
+        function darkMode() {
+          var element = document.body;
+          var content = document.getElementById("DarkModetext");
+          element.className = "dark-mode";
+          content.innerText = "Dark Mode is ON";
+        }
+
+        function lightMode() {
+          var element = document.body;
+          var content = document.getElementById("DarkModetext");
+          element.className = "light-mode";
+          content.innerText = "Dark Mode is OFF";
+        }
+    </script>
+
+</head>
+<body>
+    <div class = "header">
+    <h1>Drew Grondahl</h1>
+    <h3><a href="mailto: d.s.grondahl01@gmail.com">d.s.grondahl01@gmail.com</a></h3>
+    <h3><a href="https://github.com/Drew-bit-dev" target="_blank">GitHub repo</a></h3>
+    <h3><a href="Resume Fall  2022, Drew Grondahl.docx" download="">Copy of Resume</a></h3>
+    <button onclick="darkMode()">Darkmode</button>
+    <button onclick="lightMode()">LightMode</button>
+    </div>
+
+    <div class = "column1">
+        <h2>Overview:</h2>
+        <embed src="overviewText.txt" type="">
+    
+        <h2>Skills:</h2>
+        <embed src="skillsText.txt" type="">
+    </div>
+
+    <div class = "column2">
+        <div class="education">
+            <h2>Education and Awards:</h2>
+            <embed src="educationText.txt" type="">
+        </div>
+
+        <h2>Work Experience:</h2>
+        <embed src="workExperience.txt" type="">    
+    </div>
+</body>
+</html>
