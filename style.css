@@ -16,7 +16,7 @@ button{
 
 button:hover{
     scale: 1.5;
-    background-color: brown;
+    border-radius: 10px;
 }
 
 button:focus{
