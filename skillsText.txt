@@ -2,10 +2,11 @@
     Java
     C#
     HTML
-
--   Experience in the languages of:
-    SQL
     CSS
+
+-   Experience in:
+    SQL
+    Git/Git Bash
     JavaScript
     Python
     TypeScript
