@@ -2,22 +2,42 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+.topnav{
+    float: left;
+    overflow: hidden;
+    padding: 15px;
+}
+
+.topnav2{
+    float: right;
+    overflow: hidden;
+    padding: 15px;
+}
+
 .header{
     color: black;
     text-align: center;
+}
+
+footer{
+    text-align: center;
+    padding: 3px;
+    font-size: x-large;
+    color: green;
 }
 
 button{
     transition: 0.5s;
     border-radius: .3 ease-in;
     background-color: gray;
+    border-radius: 10px;
     width: 150px;
     height: 30px;
 }
 
 button:hover{
     scale: 1.5;
-    border-radius: 10px;
+    border-radius: 100px;
 }
 
 button:focus{

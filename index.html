@@ -4,36 +4,42 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Resume Site</title>
+    <title>Document</title>
     <link rel="stylesheet" href="style.css">
-
-    <script>
-        function darkMode() {
-          var element = document.body;
-          var content = document.getElementById("DarkModetext");
-          element.className = "dark-mode";
-          content.innerText = "Dark Mode is ON";
-        }
-
-        function lightMode() {
-          var element = document.body;
-          var content = document.getElementById("DarkModetext");
-          element.className = "light-mode";
-          content.innerText = "Dark Mode is OFF";
-        }
-    </script>
-
 </head>
+
+<script>
+    function darkMode() {
+      var element = document.body;
+      var content = document.getElementById("DarkModetext");
+      element.className = "dark-mode";
+      content.innerText = "Dark Mode is ON";
+    }
+
+    function lightMode() {
+      var element = document.body;
+      var content = document.getElementById("DarkModetext");
+      element.className = "light-mode";
+      content.innerText = "Dark Mode is OFF";
+    }
+</script>
+
+
+
 <body>
-    <div class = "header">
-    <h1>Drew Grondahl</h1>
-    <h3><a href="mailto: d.s.grondahl01@gmail.com">d.s.grondahl01@gmail.com</a></h3>
-    <h3><a href="https://github.com/Drew-bit-dev" target="_blank">GitHub repo</a>
-    <a href="https://www.linkedin.com/in/drew-grondahl/" target = "_blank">LinkedIn</a></h3>
-    <h3><a href="Resume Fall  2022, Drew Grondahl.docx" download="">Copy of Resume</a></h3>
-    <button onclick="darkMode()">Darkmode</button>
-    <button onclick="lightMode()">LightMode</button>
+    <div class="topnav">
+        <button onclick="location.href='https://www.dgrondahl.com'">Drew Grondahl</button>
+        <button onclick="location.href='mailto: d.s.grondahl01@gmail.com'">Contact Me</button>
+        <button onclick="location.href='https://github.com/Drew-bit-dev'">GitHub Repo</button>
+        <button onclick="location.href='https://www.linkedin.com/in/drew-grondahl/'">LinkedIn</button>
     </div>
+
+    <div class="topnav2">
+        <button onclick="darkMode()">Darkmode</button>
+        <button onclick="lightMode()">LightMode</button>
+    </div>
+
+    <!--Make the landing page an about me page, that will link to resume page, and examples of projects?-->
 
     <div class = "column1">
         <h2>Overview:</h2>
@@ -52,5 +58,8 @@
         <h2>Work Experience:</h2>
         <embed src="workExperience.txt" type="">    
     </div>
+
 </body>
+
 </html>
+
