@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Drew Grondahl Homepage</title>
+    <title>Drew Grondahl Resume</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -28,11 +28,10 @@
 
 <body>
     <div class="topnav">
-        <button onclick="location.href='resume.html'">Resume</button>
+        <button onclick="location.href='https://www.dgrondahl.com'">Drew Grondahl</button>
         <button onclick="location.href='mailto: d.s.grondahl01@gmail.com'">Contact Me</button>
         <button onclick="location.href='https://github.com/Drew-bit-dev'">GitHub Repo</button>
         <button onclick="location.href='https://www.linkedin.com/in/drew-grondahl/'">LinkedIn</button>
-        <button onclick="location.href='recipies.html'">Recipes</button>
     </div>
 
     <div class="topnav2">
@@ -40,22 +39,26 @@
         <button onclick="lightMode()">LightMode</button>
     </div>
 
-    <div class="mainBody">
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <h1>Welcome to my personal website</h1>
-        <h4>Last updated: May 3rd 2024</h4>
-        <h2>Purpose of the site:</h2>
-        <p>This website is designed for me to host a professional resume and my own personal documents such as my families recipes. As seen above there are tabs to important pages and links, thank you for visiting and I plan to add more functionality to this as I find the need and time to implement it.
-        </p>
+    <!--Make the landing page an about me page, that will link to resume page, and examples of projects?-->
+
+    <div class = "column1">
+        <h2>Overview:</h2>
+        <embed src="overviewText.txt" type="">
+    
+        <h2>Skills:</h2>
+        <embed src="skillsText.txt" type="">
     </div>
 
-    <!--Make the landing page an about me page, that will link to resume page, and examples of projects?-->
-    <!--Set password protected portion for personal storage of recipies?
-        to set the password create script that points to a server that will check an entered password and if it matches-->
+    <div class = "column2">
+        <div class="education">
+            <h2>Education, Certifications and Awards:</h2>
+            <embed src="educationText.txt" type="">
+        </div>
+
+        <h2>Work Experience:</h2>
+        <embed src="workExperience.txt" type="">    
+    </div>
+
 </body>
 
 </html>

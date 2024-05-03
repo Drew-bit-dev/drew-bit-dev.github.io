@@ -1,16 +1,18 @@
 -   Proficient in the languages of:
     Java
-    C#
+    Apex
     HTML
     CSS
 
 -   Experience in:
     SQL
+    SOQL
     Git/Git Bash
     JavaScript
     Python
     TypeScript
     C
+    C#
     Kotlin
     .NET frameworks
     Microsoft Office
