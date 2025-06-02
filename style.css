@@ -2,22 +2,6 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-.topnav{
-    float: left;
-    overflow: hidden;
-    padding-right: 50px;
-    padding-left: 50px;
-    padding-top: 15px;
-    padding-left: 15px;
-    padding-bottom: 15px;
-}
-
-.topnav2{
-    float: right;
-    overflow: hidden;
-    padding: 15px;
-}
-
 .header{
     color: black;
     text-align: center;
@@ -82,4 +66,28 @@ embed{
 .light-mode {
     background-color: white;
     color: black;
+}
+
+h1{
+    color:green
+}
+
+h2{
+    font-size: 1.1em;
+}
+
+.column {
+    float: left; 
+    width: 50%;
+}
+	
+.row:after {
+    content: ""; 
+    display: table;
+    clear: both;
+}
+
+.aboutme{
+    /* background-color: blue; */
+    /* margin-top:100px; */
 }

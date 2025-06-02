@@ -1,65 +1,110 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Drew Grondahl Resume</title>
+    <title>Drew Knutson Resume</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <script>
     function darkMode() {
-      var element = document.body;
-      var content = document.getElementById("DarkModetext");
-      element.className = "dark-mode";
-      content.innerText = "Dark Mode is ON";
+        var element = document.body;
+        var content = document.getElementById("DarkModetext");
+        element.className = "dark-mode";
+        content.innerText = "Dark Mode is ON";
     }
 
     function lightMode() {
-      var element = document.body;
-      var content = document.getElementById("DarkModetext");
-      element.className = "light-mode";
-      content.innerText = "Dark Mode is OFF";
+        var element = document.body;
+        var content = document.getElementById("DarkModetext");
+        element.className = "light-mode";
+        content.innerText = "Dark Mode is OFF";
     }
 </script>
 
 
 
 <body>
-    <div class="topnav">
-        <button onclick="location.href='https://www.dgrondahl.com'">Drew Grondahl</button>
+    <nav>
+        <button onclick="location.href='https://www.dgrondahl.com'">Home</button>
         <button onclick="location.href='mailto: d.s.grondahl01@gmail.com'">Contact Me</button>
         <button onclick="location.href='https://github.com/Drew-bit-dev'">GitHub Repo</button>
         <button onclick="location.href='https://www.linkedin.com/in/drew-grondahl/'">LinkedIn</button>
+        <button onclick="location.href='recipies.html'">Recipes</button>
+
+        <!-- <div class="topnav2">
+            <button onclick="darkMode()">Darkmode</button>
+            <button onclick="lightMode()">LightMode</button>
+        </div> -->
+    </nav>
+
+    <div class="aboutme">
+        <h1>About me</h1>
+        <p>A results-oriented team player who can quickly pick up on new concepts and ideas. Is capable of effectively
+            working with multiple clients/companies at the same time and prioritizing workloads. An accomplished
+            developer with experience in CRM configuration, Object-Oriented Programming, and web design/programming. Has
+            a history of both programming and photo/video editing professionally, with a passion for both.</p>
     </div>
 
-    <div class="topnav2">
-        <button onclick="darkMode()">Darkmode</button>
-        <button onclick="lightMode()">LightMode</button>
+    <div class="education">
+        <h1>Education</h1>
+        <h2>Bachelor of Science - Computer Science, Minor - History | North Dakota State University</h2>
     </div>
 
-    <!--Make the landing page an about me page, that will link to resume page, and examples of projects?-->
-
-    <div class = "column1">
-        <h2>Overview:</h2>
-        <embed src="overviewText.txt" type="">
-    
-        <h2>Skills:</h2>
-        <embed src="skillsText.txt" type="">
-    </div>
-
-    <div class = "column2">
-        <div class="education">
-            <h2>Education, Certifications and Awards:</h2>
-            <embed src="educationText.txt" type="">
+    <div class="row">
+        <h1>Work Experience</h1>
+        <div class="column">
+            <article>
+                <h2>Associate Technical Consultant | Perficient Inc. | 2023 - Present</h2>
+                <ul>
+                    <li>Gather requirements, design, code, beta test, deploy, and maintain projects from start to finish</li>
+                    <li>Assist business lines with solving technical problems quickly and efficiently</li>
+                    <li>Prepared and presented to clients system demonstrations of processes and functionality implemented</li>
+                    <li>Follow change management procedures across services such as GitHub, Copado, and Jira</li>
+                    <li>Stay up to date with new Salesforce releases to determine the impact on client orgs</li>
+                </ul>
+            </article>
+            <article>
+                <h2>Lifeguard | YMCA - Hudson Wi | 2018 – 2022</h2>
+                <ul>
+                    <li>Supervise all pools and ensure that all patrons follow the rules and remain safe</li>
+                    <li>Be ready to assist in or take charge of an emergency throughout the facility</li>
+                </ul>
+            </article>
         </div>
-
-        <h2>Work Experience:</h2>
-        <embed src="workExperience.txt" type="">    
+        <div class="column">
+            <div class="work experience">
+                <article>
+                    <h2>Student Supervisor | NDSU IT Department | 2020 – 2023</h2>
+                    <ul>
+                        <li>Manage a team of six students made up of both undergraduate and international graduate students</li>
+                        <li>Compile the team’s weekly schedule, including shifts, workshops, and project deadlines</li>
+                        <li>Assign project work to team members and ensure it will be completed on time and to a high standard</li>
+                        <li>Help students and staff who come in with IT issues and specific issues in the Adobe Suite, Davinci Resolve, and Audacity</li>
+                    </ul>
+                </article>
+            </div>
+        </div>
     </div>
+
+    <div>
+        <h1>Skills & Abilities</h1>
+        <ul>
+            <li>Proficient in Java, HTML, APEX, SOQL</li>
+            <li>Experience in SQL, CSS, C, C#, JavaScript, TypeScript, Python</li>
+            <li>Agile software development</li>
+            <li>VS Code, Github, Copado</li>
+            <li>Salesforce configuration</li>
+        </ul>
+    </div>
+
+    <footer>
+        <a href="Drew Knutson Resume - 2025.pdf" download>Download a PDF copy of my resume</a>
+    </footer>
 
 </body>
 
 </html>
-
