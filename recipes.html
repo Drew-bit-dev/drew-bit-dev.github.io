@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>recipes</title>
+    <link rel="stylesheet" href="recipeStyle.css">
+</head>
+
+
+
+<body>
+    <div class="header">
+        <nav>
+            <button onclick="location.href='https://www.dgrondahl.com'">Home</button>
+            <button onclick="location.href='https://www.dgrondahl.com/resume.html'">Resume</button>
+            <button onclick="location.href='mailto: d.s.grondahl01@gmail.com'">Contact Me</button>
+            <button onclick="location.href='https://github.com/Drew-bit-dev'">GitHub Repo</button>
+            <button onclick="location.href='https://www.linkedin.com/in/drew-grondahl/'">LinkedIn</button>
+            <button onclick="location.href='https://www.dgrondahl.com/recipes.html'">Recipes</button>
+        </nav>
+    </div>
+
+    <br>
+    <br>
+
+    <!-- recipe dropdowns -->
+    <button type="button" class="collapsible">Anne Knutson's Coconut Cream Pie</button>
+    <div class="recipe">
+        <h2>Ingredients:</h2>
+        <ul>
+            <li>1/4c Cornstarch</li>
+            <li>2/3c sugar</li>
+            <li>1/4 tsp salt</li>
+            <li>2c scalded milk</li>
+            <li>3 lightly beaten egg yolks</li>
+            <li>3 stiff beaten egg whites</li>
+            <li>1c coconut shavings</li>
+            <li>2 tbs melted butter</li>
+            <li>1/2 tsp vanilla</li>
+            <li>6 tbs sugar</li>
+            <li>1/4 tsp cream of tartar</li>
+            <li>9" pie shell (prebaked)</li>
+        </ul>
+
+        <h2>Instructions:</h2>
+        <h3>Custard:</h3>
+        <ul>
+            <li>Mix cornstarch, sugar and salt together</li>
+            <li>Scald the milk and slowly add to the mixture</li>
+            <li>Cook in a double boiler until thickened (~10 to 30 mins) STIRRING CONSTANTLY</li>
+            <li>If it is not thickening enough over the heat, slowly add 1 tbs of cornstarchat a time until thickened,
+                stirring constantly</li>
+            <li>Slowly add a small amount of the mixture to the egg yolks, and then add that back intothe mixture</li>
+            <li>Cook on double boiler again for around 5 minutes</li>
+            <li>Allow to cool, add melted butter, vanilla and coconut shavings</li>
+            <li>Pour into the cooled prebaked pie shell</li>
+            <li>Set in fridge for 1
+            <li>2 hours minimum</li>
+        </ul>
+
+        <h3>Meringue:</h3>
+        <ul>
+            <li>Beat the egg whites, sugar and cream of tartar and vanilla together</li>
+            <li>Beat until stiff peaks are formed when the mixer is pulled out of the mixture</li>
+            <li>Use a hand mixer on medium to high speed</li>
+        </ul>
+
+        <h3>Finishing the Pie:</h3>
+        <ul>
+            <li>Spread the meringue onto the set pie and sprinkle with coconut shavings</li>
+            <li>Bake at 350 degrees for 12-15 minutes or until golden brown</li>
+        </ul>
+    </div>
+
+    <button type="button" class="collapsible">Anne Knutson's Pie Shell</button>
+    <div class="recipe">
+        <h2>Ingredients:</h2>
+        <ul>
+            <li>2c flour</li>
+            <li>1/2 tsp salt</li>
+            <li>1/2c Wesson oil</li>
+            <li>1/4c milk (1% or 2%)</li>
+        </ul>
+
+        <h2>Directions:</h2>
+        <ul>
+            <li>Mix ingredients together in a large bowl</li>
+            <li>Use hands to form two balls</li>
+            <li>Roll out between two sheets of wax paper</li>
+        </ul>
+
+        <h2>Notes:</h2>
+        <ul>
+            <li>If the crust is too dry, add small amounts of water to mixture until desired consistency</li>
+            <li>for coconut cream pie, use both balls of dough</li>
+        </ul>
+    </div>
+
+    <button type="button" class="collapsible">Anne Knutson's Brownies</button>
+    <div class="recipe">
+        <h2>Ingredients:</h2>
+
+        <h2>Directions:</h2>
+    </div>
+
+</body>
+
+<script>
+    var coll = document.getElementsByClassName("collapsible");
+    var i;
+
+    for (i = 0; i < coll.length; i++) {
+        coll[i].addEventListener("click", function () {
+            this.classList.toggle("active");
+            var content = this.nextElementSibling;
+            if (content.style.maxHeight) {
+                content.style.maxHeight = null;
+            } else {
+                content.style.maxHeight = content.scrollHeight + "px";
+            }
+        });
+    }
+</script>
+
+</html>
