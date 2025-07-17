@@ -23,12 +23,12 @@
 }
 
 .countrysideImage {
-    /* background-image: url("https://github.com/Drew-bit-dev/drew-bit-dev.github.io/blob/main/images/Countryside.jpg?raw=true"); */
+    background-image: url("https://github.com/Drew-bit-dev/drew-bit-dev.github.io/blob/main/images/Countryside.jpg?raw=true");
     min-height: 500px;
 }
 
 .gulfossImage {
-    /* background-image: url("https://github.com/Drew-bit-dev/drew-bit-dev.github.io/blob/main/images/Gulfoss.jpg?raw=true"); */
+    background-image: url("https://github.com/Drew-bit-dev/drew-bit-dev.github.io/blob/main/images/Gulfoss.jpg?raw=true");
     min-height: 500px;
 }
 
