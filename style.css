@@ -18,17 +18,17 @@
 }
 
 .edinburghCastleImage {
-    background-image: url("images/EdinburghCastle.JPG");
+    background-image: url("https://github.com/Drew-bit-dev/drew-bit-dev.github.io/blob/main/images/EdinburghCastle.jpg?raw=true");
     min-height: 500px;
 }
 
 .countrysideImage {
-    background-image: url("images/Countryside.JPG");
+    background-image: url("https://github.com/Drew-bit-dev/drew-bit-dev.github.io/blob/main/images/Countryside.jpg?raw=true");
     min-height: 500px;
 }
 
 .gulfossImage {
-    background-image: url("images/Gulfoss.JPG");
+    background-image: url("https://github.com/Drew-bit-dev/drew-bit-dev.github.io/blob/main/images/Gulfoss.jpg?raw=true");
     min-height: 500px;
 }
 
