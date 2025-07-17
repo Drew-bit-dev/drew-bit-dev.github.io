@@ -1,20 +1,47 @@
-*{
+* {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-.header{
+.header {
     color: black;
     text-align: center;
 }
 
-footer{
-    text-align: center;
-    padding: 3px;
-    font-size: x-large;
-    color: green;
+.edinburghCastleImage,
+.gulfossImage,
+.countrysideImage {
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-button{
+.edinburghCastleImage {
+    background-image: url("images/EdinburghCastle.JPG");
+    min-height: 500px;
+}
+
+.countrysideImage {
+    background-image: url("images/Countryside.JPG");
+    min-height: 500px;
+}
+
+.gulfossImage {
+    background-image: url("images/Gulfoss.JPG");
+    min-height: 500px;
+}
+
+
+.footer {
+    position: absolute;
+    bottom: 10px;
+    padding: 3px;
+    font-size: x-small;
+    color: white;
+}
+
+button {
     transition: 0.5s;
     border-radius: .3 ease-in;
     background-color: gray;
@@ -23,31 +50,31 @@ button{
     height: 30px;
 }
 
-button:hover{
+button:hover {
     scale: 1.5;
     border-radius: 100px;
 }
 
-button:focus{
+button:focus {
     background-color: brown;
 }
 
-a{
+a {
     color: darkslateblue;
 }
 
-embed{
+embed {
     height: 500px;
     width: 600px;
 }
 
-.column1{
+.column1 {
     width: max-content;
     float: left;
     padding-top: 20px;
 }
 
-.column2{
+.column2 {
     width: max-content;
     float: left;
     padding-left: 15px;
@@ -59,7 +86,7 @@ embed{
     color: white;
 }
 
-.dark-mode .header{
+.dark-mode .header {
     color: white;
 }
 
@@ -68,26 +95,21 @@ embed{
     color: black;
 }
 
-h1{
-    color:green
+h1 {
+    color: green
 }
 
-h2{
+h2 {
     font-size: 1.1em;
 }
 
 .column {
-    float: left; 
+    float: left;
     width: 50%;
 }
-	
+
 .row:after {
-    content: ""; 
+    content: "";
     display: table;
     clear: both;
-}
-
-.aboutme{
-    /* background-color: blue; */
-    /* margin-top:100px; */
 }
