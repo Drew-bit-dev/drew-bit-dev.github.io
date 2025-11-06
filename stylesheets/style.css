@@ -63,11 +63,6 @@ button:focus {
     background-color: brown;
 }
 
-button:active{
-    background-color: #FF6B35;
-    color: white;
-}
-
 .activeTab{
     background-color: #bc2c1a;
     color: white;
