@@ -2,6 +2,16 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+body{
+    background-color: #e5e9ec;
+}
+
+.header .activeTab{
+    background-color: #bc2c1a;
+    /*7b2d26, */
+    color: white;
+}
+
 /* .header{
     color: black;
     text-align: center;

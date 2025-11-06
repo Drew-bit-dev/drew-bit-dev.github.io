@@ -2,6 +2,10 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+body{
+    background-color: #e5e9ec;
+}
+
 .header {
     color: black;
     text-align: center;
@@ -57,6 +61,16 @@ button:hover {
 
 button:focus {
     background-color: brown;
+}
+
+button:active{
+    background-color: #FF6B35;
+    color: white;
+}
+
+.activeTab{
+    background-color: #bc2c1a;
+    color: white;
 }
 
 a {
