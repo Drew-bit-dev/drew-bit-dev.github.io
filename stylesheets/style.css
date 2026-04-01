@@ -2,6 +2,10 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+.NameHeader h1, .NameHeader h3{
+    display:inline-block
+}
+
 .edinburghCastleImage,
 .gulfossImage,
 .countrysideImage {
